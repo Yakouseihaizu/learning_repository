@@ -1,0 +1,22 @@
+1.csv模块：
+    1.csv.reader(file) -------------------------------------------------------- 返回一个Reader对象，类似一个迭代器
+    2.list(Reader) ------------------------------------------------------------ 返回一个由csv每一行的数据组成的列表的列表
+    3.Reader.line_num --------------------------------------------------------- 返回一个整数，表示当前Reader所在的行数
+    4.csv.writer(file) -------------------------------------------------------- 返回一个Writer对象，
+                                                                                open函数的newline=''，则直接换行
+                                                                                open函数的newline='\n'，则直接间隔一行，以此类推
+    5.Writer.writerow(row，delimiter,lineterminator) -------------------------- 将row中的内容写入Writer对应的文件中
+                                                                                delimiter作为row中两个对象之间的间隔
+                                                                                lineterminator作为row之间的间隔
+    6.csv.DictReader(file,fieldnames) ----------------------------------------- 生成一个DictReader对象，类似Reader，
+                                                                                默认第一行作为fieldnames
+    7.list(DictReader) -------------------------------------------------------- 是一个每一行中由DictReader的fieldnames作为键的字典的列表
+    8.csv.DictWriter(file,fieldnames,delimiter,lineterminator) ---------------- 生成一个DictWriter对象，类似Writer。
+    9.DictWriter.writeheader() ------------------------------------------------ 写入自己的fieldnames
+    10.DicrWriter.writerow(row) ----------------------------------------------- 类似于5，但是row是一个字典，没有涉及的键会自己隔开
+1.json模块：
+    1.json.dumps(pythonv) ----------------------------------------------------- 返回一个字符串，将python的变量转换成对应的json变量的字符串
+    2.json.loads(str) --------------------------------------------------------- 返回json字符串转换成python变量
+                                                                                如response.text等
+    3.json.dump(pythonv,fp) --------------------------------------------------- 将python变量先转换成json字符串，之后写入fp
+    4.json.load(fp) ---------------------------------------------------------- 将文件中的json变量转换成对应的python变量

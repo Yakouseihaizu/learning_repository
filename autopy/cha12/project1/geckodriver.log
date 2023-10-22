@@ -1,0 +1,938 @@
+1694524850997	geckodriver	INFO	Listening on 127.0.0.1:35760
+1694524854051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "35761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilehialqN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694524854484	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694524854580	Marionette	INFO	Listening on port 35780
+WebDriver BiDi listening on ws://127.0.0.1:35761
+Read port: 35780
+1694524854811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:35761/devtools/browser/f14d97bd-4026-42f1-8eba-637da0effe3d
+JavaScript warning: https://az725175.vo.msecnd.net/scripts/jsll-4.js, line 1: Script terminated by timeout at:
+at@https://az725175.vo.msecnd.net/scripts/jsll-4.js:1:43017
+
+1694524882564	Marionette	INFO	Stopped listening on port 35780
+Dynamically enable window occlusion 1
+1694524953036	geckodriver	INFO	Listening on 127.0.0.1:35986
+1694524956096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "35987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileKwd5gk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694524956340	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694524956396	Marionette	INFO	Listening on port 2916
+WebDriver BiDi listening on ws://127.0.0.1:35987
+Read port: 2916
+1694524956542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:35987/devtools/browser/9345fb24-6d0c-4b92-9190-6cdb9895c35b
+JavaScript warning: https://fpt.microsoft.com/tags?session_id=4652a952-7445-4f93-a3d6-cfff89798fad, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://logincdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_tSc0Su-bb7Jt0QVuF6v9Cg2.js, line 18: Script terminated by timeout at:
+e.exports</</d</e.prototype.post@https://logincdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_tSc0Su-bb7Jt0QVuF6v9Cg2.js:18:157118
+t@https://logincdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_tSc0Su-bb7Jt0QVuF6v9Cg2.js:18:158676
+
+JavaScript warning: https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASH302899afe99a0d7d141369bbac458051.js, line 204: Script terminated by timeout at:
+Lf/</V.setUnloading@https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASH302899afe99a0d7d141369bbac458051.js:204:404
+J@https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASH302899afe99a0d7d141369bbac458051.js:206:251
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694525168809	Marionette	INFO	Stopped listening on port 2916
+Dynamically enable window occlusion 1
+imeout at:
+Lf/</V.setUnloading@https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASH302899afe99a0d7d141369bbac458051.js:204:404
+J@https://www.microsoft.com/etc.clientlibs/microsoft/components/structure/page/clientlibs/custom-oneds.min.ACSHASH302899afe99a0d7d141369bbac458051.js:206:251
+
+1694525113688	Marionette	INFO	Stopped listening on port 3053
+Dynamically enable window occlusion 1
+1694525334693	geckodriver	INFO	Listening on 127.0.0.1:6154
+1694525337746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileOao3px"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525337971	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525338026	Marionette	INFO	Listening on port 6163
+WebDriver BiDi listening on ws://127.0.0.1:6155
+Read port: 6163
+1694525338188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:6155/devtools/browser/d55de8f7-1a84-445f-8eb8-ad65fdfe4275
+1694525342837	Marionette	INFO	Stopped listening on port 6163
+Dynamically enable window occlusion 1
+1694525369848	geckodriver	INFO	Listening on 127.0.0.1:1090
+1694525372901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilez4VnCk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525373133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525373184	Marionette	INFO	Listening on port 1101
+WebDriver BiDi listening on ws://127.0.0.1:1091
+Read port: 1101
+1694525373337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1091/devtools/browser/58e2a761-75dd-4c1a-8be5-1d8b8bb41103
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694525681770	Marionette	INFO	Stopped listening on port 1101
+Dynamically enable window occlusion 1
+hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileVK3xfk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525520918	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525520970	Marionette	INFO	Listening on port 12727
+WebDriver BiDi listening on ws://127.0.0.1:12720
+Read port: 12727
+1694525521121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12720/devtools/browser/5b97ab4f-f2af-49b9-bfee-3f1c359fbd58
+1694525533760	Marionette	INFO	Stopped listening on port 12727
+Dynamically enable window occlusion 1
+1694525590954	geckodriver	INFO	Listening on 127.0.0.1:12811
+1694525594036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12812" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileBv85Ui"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525594263	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525594318	Marionette	INFO	Listening on port 12820
+WebDriver BiDi listening on ws://127.0.0.1:12812
+Read port: 12820
+1694525594466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12812/devtools/browser/d0a1b37f-6fba-40ff-b149-910aeb0e9377
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694525685276	Marionette	INFO	Stopped listening on port 12820
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileDwBK4S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525625695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525625746	Marionette	INFO	Listening on port 12896
+WebDriver BiDi listening on ws://127.0.0.1:12883
+Read port: 12896
+1694525625911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12883/devtools/browser/836f8040-2a41-41a6-ad52-c0f4c5014425
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694525645333	Marionette	INFO	Stopped listening on port 12896
+Dynamically enable window occlusion 1
+1694525693545	geckodriver	INFO	Listening on 127.0.0.1:36467
+1694525696604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36468" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileg7zJEE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525696838	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525696890	Marionette	INFO	Listening on port 36476
+WebDriver BiDi listening on ws://127.0.0.1:36468
+Read port: 36476
+1694525697041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:36468/devtools/browser/ff6da0c8-ce11-4b55-82ef-270549e901d3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.error: "stylesheets: fetch failed for https://mail.zju.edu.cn/coremail/common/assets/index_cmxt50/css/custom.css, using system principal instead."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694525752729	Marionette	INFO	Stopped listening on port 36476
+Dynamically enable window occlusion 1
+1694525802646	geckodriver	INFO	Listening on 127.0.0.1:36639
+1694525805707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36640" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileX6pWmP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525805928	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525805985	Marionette	INFO	Listening on port 36649
+WebDriver BiDi listening on ws://127.0.0.1:36640
+Read port: 36649
+1694525806133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:36640/devtools/browser/3f3453a3-6744-4277-8b38-a07f0859c758
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694525808080	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694526028073	Marionette	INFO	Stopped listening on port 36649
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile1QZlne"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694525957775	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694525957828	Marionette	INFO	Listening on port 36833
+WebDriver BiDi listening on ws://127.0.0.1:36820
+Read port: 36833
+1694525957976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:36820/devtools/browser/8aa6dcbb-dcc5-45fa-8875-c835cde78cff
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694525960237	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694526026877	Marionette	INFO	Stopped listening on port 36833
+Dynamically enable window occlusion 1
+1694526032593	geckodriver	INFO	Listening on 127.0.0.1:36981
+1694526035649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "36982" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileQOmIuR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694526035921	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526035974	Marionette	INFO	Listening on port 36991
+Read port: 36991
+WebDriver BiDi listening on ws://127.0.0.1:36982
+1694526036019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:36982/devtools/browser/a0c320d2-bcca-49b7-b760-f99807c22cf4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526038458	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694526108014	Marionette	INFO	Stopped listening on port 36991
+Dynamically enable window occlusion 1
+_SETTINGS_DEVTOOLS=1 in the environment
+1694526077456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526077510	Marionette	INFO	Listening on port 37146
+WebDriver BiDi listening on ws://127.0.0.1:37137
+Read port: 37146
+1694526077656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:37137/devtools/browser/359c3ccd-98a8-45ac-a78e-8539f57cb2af
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526079751	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694526149689	Marionette	INFO	Stopped listening on port 37146
+Dynamically enable window occlusion 1
+1694526182870	geckodriver	INFO	Listening on 127.0.0.1:37322
+1694526185963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "37323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile6OAWc3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694526186190	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526186242	Marionette	INFO	Listening on port 37332
+WebDriver BiDi listening on ws://127.0.0.1:37323
+Read port: 37332
+1694526186402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:37323/devtools/browser/ad855ec9-6cef-48ff-a852-94875980e391
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526188523	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694526492281	Marionette	INFO	Stopped listening on port 37332
+Dynamically enable window occlusion 1
+osts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilezOOzz0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694526279919	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526279970	Marionette	INFO	Listening on port 37505
+WebDriver BiDi listening on ws://127.0.0.1:37496
+Read port: 37505
+1694526280114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:37496/devtools/browser/aa6cd1cf-8aa3-46ff-b5b7-b42e3f7ab83a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526282250	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694526290939	Marionette	INFO	Stopped listening on port 37505
+Dynamically enable window occlusion 1
+1694526306794	geckodriver	INFO	Listening on 127.0.0.1:37609
+1694526309850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "37610" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile1zKieN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694526310095	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526310152	Marionette	INFO	Listening on port 37619
+WebDriver BiDi listening on ws://127.0.0.1:37610
+Read port: 37619
+1694526310315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:37610/devtools/browser/8768db50-6181-4727-aead-27c211bedb27
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526313535	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694526333715	Marionette	INFO	Stopped listening on port 37619
+Dynamically enable window occlusion 1
+1694526494964	geckodriver	INFO	Listening on 127.0.0.1:3068
+1694526498043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilepcFfw9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694526498275	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694526498329	Marionette	INFO	Listening on port 3078
+WebDriver BiDi listening on ws://127.0.0.1:3069
+Read port: 3078
+1694526498478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3069/devtools/browser/590f1eac-6b80-4030-a905-7420143009a3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694526500521	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 524))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450947/pagestyle31 (resource://devtools/server/actors/page-style.js:524:5)", "resource://devtools/shared/protocol/Front.js", 383))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 524))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450947/pagestyle31 (resource://devtools/server/actors/page-style.js:524:5)", "resource://devtools/shared/protocol/Front.js", 383))
+JavaScript error: resource://devtools/client/inspector/markup/views/markup-container.js, line 635: TypeError: this.markup.getContainer(...) is undefined
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694527592874	Marionette	INFO	Stopped listening on port 3078
+Dynamically enable window occlusion 1
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527018356	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694527376645	Marionette	INFO	Stopped listening on port 3555
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofiletQB4kr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694527249510	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694527249566	Marionette	INFO	Listening on port 3790
+Read port: 3790
+WebDriver BiDi listening on ws://127.0.0.1:3781
+1694527249614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3781/devtools/browser/8c99bbdb-9723-4e61-aa70-f02d85aea38f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527251760	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694528309878	Marionette	INFO	Stopped listening on port 3790
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileHq6Zli"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694527355387	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694527355441	Marionette	INFO	Listening on port 4005
+WebDriver BiDi listening on ws://127.0.0.1:3981
+Read port: 4005
+1694527355585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3981/devtools/browser/b322d4b3-790f-4df3-8d72-03a49e4f15cc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527357878	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694527368049	Marionette	INFO	Stopped listening on port 4005
+Dynamically enable window occlusion 1
+1694527596559	geckodriver	INFO	Listening on 127.0.0.1:45918
+1694527599641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "45919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilebLxUSE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694527599878	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694527599933	Marionette	INFO	Listening on port 45928
+WebDriver BiDi listening on ws://127.0.0.1:45919
+Read port: 45928
+1694527600076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:45919/devtools/browser/1546f355-c12b-4ed7-ab35-20e0ce1b3c81
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527602100	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694528310929	Marionette	INFO	Stopped listening on port 45928
+Dynamically enable window occlusion 1
+_SETTINGS_DEVTOOLS=1 in the environment
+1694527698872	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694527698925	Marionette	INFO	Listening on port 46082
+WebDriver BiDi listening on ws://127.0.0.1:46074
+Read port: 46082
+1694527699071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:46074/devtools/browser/ae918768-aa3e-475b-b949-8dd0e6998efe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527701450	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694528311783	Marionette	INFO	Stopped listening on port 46082
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "46190" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile8KU47c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694527720341	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694527720396	Marionette	INFO	Listening on port 46197
+WebDriver BiDi listening on ws://127.0.0.1:46190
+Read port: 46197
+1694527720548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:46190/devtools/browser/f6955339-0194-4e8e-9944-3ac69daaf057
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694527722636	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 524))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450947/pagestyle31 (resource://devtools/server/actors/page-style.js:524:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694528312800	Marionette	INFO	Stopped listening on port 46197
+Dynamically enable window occlusion 1
+_SETTINGS_DEVTOOLS=1 in the environment
+1694528087872	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694528087928	Marionette	INFO	Listening on port 27452
+WebDriver BiDi listening on ws://127.0.0.1:27444
+Read port: 27452
+1694528088084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:27444/devtools/browser/6c8264f7-8da5-4f49-9a0e-3bad7a08ec32
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694528090537	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694529817817	Marionette	I1694529818482	Marionette	INFO	Stopped listening on port 39703
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "39825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileCnhQ3j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694528511968	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694528512029	Marionette	INFO	Listening on port 39832
+WebDriver BiDi listening on ws://127.0.0.1:39825
+Read port: 39832
+1694528512180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:39825/devtools/browser/1544e072-6f7a-4df3-af03-4fd274c1ca82
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694528514064	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694529819731	Marionette	INFO	Stopped listening on port 39832
+Dynamically enable window occlusion 1
+sion
+DevTools listening on ws://127.0.0.1:39992/devtools/browser/4ec12ff5-fdad-415d-9062-76c0e404f5ad
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694528627351	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694529820762	Marionette	INFO	Stopped listening on port 39999
+Dynamically enable window occlusion 1
+ng on port 40169
+WebDriver BiDi listening on ws://127.0.0.1:40161
+Read port: 40169
+1694528763090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:40161/devtools/browser/b80e3309-9817-4e57-99ed-585676ca30d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694528765260	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694528771451	Marionette	INFO	Stopped listening on port 40169
+Dynamically enable window occlusion 1
+1694528779063	geckodriver	INFO	Listening on 127.0.0.1:40270
+1694528782151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "40271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilelTUiZu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694528782382	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694528782438	Marionette	INFO	Listening on port 40280
+WebDriver BiDi listening on ws://127.0.0.1:40271
+Read port: 40280
+1694528782586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:40271/devtools/browser/0e5c67a4-5a3d-449d-98c2-5a0b9684de52
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694528784464	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+SourceActor threw an exception: Error: Failed to fetch https://mail.zju.edu.cn/coremail/XT5/index.jsp?sid=CAQrYUNNILsoJLmjLqQFOJMplWZFxraq. Code 2152398919.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:16
+onStopRequest@resource://gre/modules/NetUtil.sys.mjs:124:18
+Line: 596, column: 16
+console.error: (new Error("Failed to fetch https://mail.zju.edu.cn/coremail/XT5/index.jsp?sid=CAQrYUNNILsoJLmjLqQFOJMplWZFxraq. Code 2152398919.", "resource://devtools/shared/DevToolsUtils.js", 596))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: Error: Failed to fetch https://mail.zju.edu.cn/coremail/XT5/index.jsp?sid=CAQrYUNNILsoJLmjLqQFOJMplWZFxraq. Code 2152398919.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694529821693	Marionette	INFO	Stopped listening on port 40280
+Dynamically enable window occlusion 1
+ETTINGS_DEVTOOLS=1 in the environment
+1694529479509	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694529479566	Marionette	INFO	Listening on port 3537
+WebDriver BiDi listening on ws://127.0.0.1:3529
+Read port: 3537
+1694529479724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3529/devtools/browser/6927b926-1899-4d44-b95a-4278ddd30312
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694529499281	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694529822771	Marionette	INFO	Stopped listening on port 3537
+Dynamically enable window occlusion 1
+E_SETTINGS_DEVTOOLS=1 in the environment
+1694529751989	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694529752046	Marionette	INFO	Listening on port 43945
+WebDriver BiDi listening on ws://127.0.0.1:41306
+Read port: 43945
+1694529752200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:41306/devtools/browser/d91032e1-f8d5-4991-accd-9ddda7d46b73
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694529760745	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1694529769169	Marionette	INFO	Stopped listening on port 43945
+Dynamically enable window occlusion 1
+1694529770635	geckodriver	INFO	Listening on 127.0.0.1:44040
+1694529773669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "44041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileliNXi7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694529773897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694529773956	Marionette	INFO	Listening on port 44048
+WebDriver BiDi listening on ws://127.0.0.1:44041
+Read port: 44048
+1694529774100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:44041/devtools/browser/b08092d6-e9f4-4ad5-884c-550209d8c207
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694529776038	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 1013))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:1013:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:203:10
+onDetached@resource://devtools/client/inspector/inspector.js:1670:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2401))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutd1694530324457	Marionette	INFO	Stopped listening on port 9649
+Dynamically enable window occlusion 1
+ce://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694530172214	Marionette	INFO	Stopped listening on port 44048
+Dynamically enable window occlusion 1
+emp\\rust_mozprofilesCI3qk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694530083494	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694530083550	Marionette	INFO	Listening on port 9779
+WebDriver BiDi listening on ws://127.0.0.1:9772
+Read port: 9779
+1694530083698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:9772/devtools/browser/fc320f2d-071d-4ffd-b334-4e512d6c1a4d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694530085787	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694530092734	Marionette	INFO	Stopped listening on port 9779
+Dynamically enable window occlusion 1
+1694530110914	geckodriver	INFO	Listening on 127.0.0.1:9882
+1694530113967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileEiPxzV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694530114202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694530114257	Marionette	INFO	Listening on port 9890
+WebDriver BiDi listening on ws://127.0.0.1:9883
+Read port: 9890
+1694530114400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:9883/devtools/browser/423c8462-596f-40ed-8608-4bf7fc217e4e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694530116779	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1694530495953	Marionette	INFO	Stopped listening on port 9890
+Dynamically enable window occlusion 1
+ing command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10020" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileE6tmqH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694530152824	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694530152882	Marionette	INFO	Listening on port 10027
+WebDriver BiDi listening on ws://127.0.0.1:10020
+Read port: 10027
+1694530153030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:10020/devtools/browser/66cc169e-6e7e-41fd-a541-70cbb67c0af3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694530154985	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1694530157520	Marionette	INFO	Stopped listening on port 10027
+JavaScript warning: https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js, line 11: Script terminated by timeout at:
+e@https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js:11:4195
+
+Dynamically enable window occlusion 1
+1694530299004	geckodriver	INFO	Listening on 127.0.0.1:10200
+1694530302062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileWYM4JE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694530302305	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694530302358	Marionette	INFO	Listening on port 10209
+WebDriver BiDi listening on ws://127.0.0.1:10201
+Read port: 10209
+1694530302500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:10201/devtools/browser/7dabe2ee-095a-48ef-96c4-32a1ac0c2aeb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694530304417	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1694530306946	Marionette	INFO	Stopped listening on port 10209
+JavaScript warning: https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js, line 11: Script terminated by timeout at:
+e@https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js:11:4195
+
+Dynamically enable window occlusion 1
+1694530354347	geckodriver	INFO	Listening on 127.0.0.1:10373
+1694530357409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10374" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileMvknFs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694530357629	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694530357683	Marionette	INFO	Listening on port 10381
+WebDriver BiDi listening on ws://127.0.0.1:10374
+Read port: 10381
+1694530357833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:10374/devtools/browser/fc87907e-e970-46d7-84a1-da29f98466df
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.zju.edu.cn."
+1694530360026	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1694530362573	Marionette	INFO	Stopped listening on port 10381
+JavaScript warning: https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js, line 11: Script terminated by timeout at:
+e@https://mail.zju.edu.cn/coremail/XT5/a853b879/script.dist/0.bb832.js:11:4195
+
+Dynamically enable window occlusion 1

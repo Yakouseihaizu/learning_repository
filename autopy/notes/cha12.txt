@@ -1,0 +1,121 @@
+1.webbrowser模块
+    webbrowser.open(url)------------利用浏览器打开对应的url
+    
+    利用webbrowser打开对应的url
+    .bat文件：
+        @ + 行命令 + %*
+        @  ---------------- 用来将行命令隐藏，没有的话终端中会有行命令
+        %* ---------------- 用来将之前的行命令全部发送
+        pause关键字-------- 用于将终端暂停一段时间，便于看出输出
+    
+2.requests模块
+    requests.get(str) ------------------- 从函数中下载一个网页，返回一个response对象
+    requests.status_code ---------------- 属性，状态码，200为成功，404为找不到，403为禁止
+                                         详情参见https://www.runoob.com/http/http-status-codes.html
+    requests.code------------------------ 有一系列的属性，表示不同的状态码，如request.code.ok为200的状态码
+    response.raise_for_status() -------- 如果正常，没有反应；异常则会马上之中止，抛出request.HTTPError
+    
+3.下载文件：
+    requests.get()------------------------ 访问对应的文件
+    requests.text ------------------------ 表示下载当前页面
+    file = open(filename,'wb') ----------- 以二进制的模式直接将文件写入，这样可以处理多种文件，保存了Unicode
+    response.iter_content(int)------------ 生成一个迭代器，常用for循环，每次循环迭代器会改变自己的位置，
+                                           然后读取int字节的数据，返回迭代了多少字节
+        eg: for chunk in response.iter_content(10000)
+                每次迭代器读取10kB的数据，用chunk引用
+
+4.HTML相关：
+    1.HTML快速复习：
+        常见的标签有（至少是我记得的 [doge]
+        <html></html> 表示html文件，可以设置语言等等
+        <head></head> html的head部分，常常用来初始化
+        <body></body> html的主体部分，就是能看到的部分
+        <p></p> 表示段落
+        <h1></h1> <h2></h2> <h3></h3> 不同大小的标题
+        <a></a> 表示超链接
+        <title></title> 表示标题，常常在head部分，常出此案在浏览器上方标签卡中
+        <div></div> 表示分区
+        <span></span> 用来插入或设置一些内容
+        <strong></strong> 加粗
+        <form></form> 表单，可以提交，常用在交互中，如登录等环节
+        <ul></ul> 没有顺序的列表
+        <li></li> 列表中的某一项
+        <button></button> 一个按钮，可以设计其格式，链接等等
+        <nav></nav> 导航部分，可以生成导航栏等
+        <meta> 元，一般是一些看不见的设置
+        等
+    2.如何查找HTML中的元素：
+        1.在浏览器中打开源码，右键单击
+        2.打开开发工具，F12或者使用一些插件，如火狐的firebug
+        3.查目标数据所在的对象，找到其源码部分
+        4.bs4模块：
+            1.bs4--------------------------------- 全称BeautifulSoup4 
+                PS：使用时需要import bs4 而不是import BeautifulSoup4
+            2.bs4.BeautifulSoup(file,parser)------ file可以是本地的file变量，也可以是
+                                                   response.text的下载的变量；
+                                                   parser是解析器，Python自带html.parser
+                                                   也可以用lxml；
+                                                   生成一个BeautifulSoup类
+            3.soup.select(str)方法----------------- 用于在soup对应的文件中查找对应的元素
+                                                    相当于是CSS选择器实现了筛选，因此
+                                                    str按照CSS的方法写,返回一个bs4.element.ResulSet对象
+                                                    具有Tag对象组成的列表的性质
+                CSS选择器的简单语法:
+                1.str = 'p' 或 str = 'div' 表示选择p标签或div标签的元素
+                2.str = 'p strong'         表示选择p中的带有strong标签的元素
+                3.str = 'div > span'       表示选择div中直接有span标签的元素
+                4.str = '.notice'          表示选择class='notice'的元素
+                5.str = '#author'          表示选择id='author'的元素
+                6.str = 'input[name]'      表示选择标签为input的，且具有name属性的元素
+                7.str = 'input[name="yk"]' 表示选择标签为input的，且具有"yk"作为name属性的元素
+            4.Tag类和bs4.element.ResulSet：
+                bs4.element.ResulSet-------------- 具有Tag对象组成的列表的性质
+                Tag类 ---------------------------- 利用CSS选择器收集到的元素
+                    1.Tag.getText() -------------- 返回一个字符串，没有任何HTML的标签，有也会去掉
+                    2.Tag.attrs ------------------ 返回以一个字典，其内容为该部分的属性键值对，如class，id等等
+                    3.str(Tag) ------------------- 返回HTML中元素所在的部分，包含对应的标签
+                    4.Tag.get(key) --------------- 相当于利用attrs进行了查找，返回对应的值
+            
+4.selenium模块：
+    1.selenium模块 ------------------------------- 用来模拟人对浏览器页面的操作
+    2.selenium.webdriver模块 -------------------- 程序中常常导入的部分,主要涉及浏览器等方面
+    3.webdriver.浏览器名字() --------------------- 用来打开对应的浏览器，返回一个webDriver对象，
+                                                    PS：需要下载对应浏览器的webdriver
+    4.webDriver.get(url) ------------------------ 访问对应的网址，并打开
+    5.webDriver.get_element(by,value) ------------ 用来从页面中查找元素，返回第一个匹配的WebElement对象
+    6.webDriver.get_elements(by,value) ----------- 用来从页面中查找元素，返回一个所有匹配的WebElement对象的列表
+        PS：一些简单的查找语法：
+            1.by = 'id'                   value = id的值               查找id为value的元素
+            2.by = 'class name'           value = class的值            查找class为value的元素
+            3.by = 'name'                 value = name的值             查找name属性为value的元素
+            4.by = 'css selector'         value = 对应的CSS语法，见前   查找符合CSS语法的值
+            5.by = 'link text'            value = 链接的文本           查找是对应文本的链接
+            6.by = 'partial link text'    value = 链接文本的一部分      查找包含对应文本的链接
+            7.by = 'tag name'             value = 标签名               查找对应标签名的元素
+    7.对于WebDriver的一些操作页面的方法：
+        browser.back() --------------------------- 单击返回按钮
+        browser.forward() ------------------------ 单击前进按钮
+        browser.refresh() ------------------------ 单击刷新按钮
+        browser.quit() --------------------------- 单击关闭窗口按钮 
+        PPS: webDriver对象的部分属性和方法：
+            1.tag_name  -------------------------- 元素的tag name
+            2.get_attribute(属性) ---------------- 返回该元素属性的值
+            3.text ------------------------------- 元素内部的文本
+            4.clear() ---------------------------- 删除自己在input中输入字符串
+            5.is_displayed() --------------------- 是否可见
+            6.is_enabled() ----------------------- 判断是否可用
+            7.is_selected() ---------------------- 对于多选框或者单选，表示是否勾选
+            8.location --------------------------- 一个字典，包含键'x'和'y'，表示对应位置
+            9.click() ---------------------------- 点击对应的元素
+            10.submit() -------------------------- 提交
+            11.send_keys(str) -------------------- 相对应的元素中填入字符串，或者进行键盘的操作
+                对于特殊的键，如箭头，回车等：
+                    使用selenium.webdriver.common.keys 中的Keys类
+                    Keys.UP / Keys.DOWN / Keys.LEFT / Keys.RIGHT - 箭头方向
+                    Keys.ENTER / Keys.RETURN --------------------- 回车换行
+                    Keys.HOME / Keys.END ------------------------- 返回顶端和底部
+                    Keys.PAGE_DOWN / Keys.PAGE_UP ---------------- 上下移动
+                    Keys.ESCAPE / Keys.BACK_SPACE/ Keys.DELET ---- Esc，Backspace，delet
+                    Keys.F1 / Keys.F2 ... ------------------------ F1,F2, ...
+                    Keys.TAB ------------------------------------- TAB键
+            

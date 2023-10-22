@@ -1,0 +1,163 @@
+1.文件和文件路径
+    1.文件名：filename
+        1.主干名
+        2.后缀名/拓展名：最后一个句点之后的部分，指出文件类型
+    2.路径：path
+        根文件夹：Windows->C:  macOs/Linux->/
+        附加“卷” : Windows->D:\  E:\等等                不分大小写
+                  macOS: 新的文件夹 /Volumns下          不分大小写
+                  Linux: 新的文件夹 /mnt下              分大小写
+
+        文件路径的各个部分：
+                锚点（anchor）
+                ---        父文件夹（parent）
+                   ---------------------------------文件名（name）
+                                                    ---------     
+        Windows：C:\Users\HUAWEI\Desktop\autopy\note\cha9.txt
+                ---                                  ---- ***
+                驱动器（drive）                   主干名stem 后缀名suffix
+                单个字母，表示存储设备
+
+        macOS/Linux: /home/al/spam.text
+                     * 父文件夹
+                     | ------   文件名
+                    锚点      ---------
+    PS：正斜杠和反斜杠
+    正斜杠：/ 在macOS和Linux中表示分隔符，表示路径
+    反斜杠：\ 在Windows中表示分隔符，表示路径，同时还能表示转义
+            PS： macOS和Linux中的\是可以作为文件夹或文件名的一部分的，因此最好使用正斜杠和pathlib库处理路径
+
+2.pathlib模块：
+    1.导入Path：
+        from pathlib import Path
+    2.Path类：
+        Path('str') 返回一个具体的Path对象，如：WindowsPath PosixPath
+        如Windowspath(str)
+        此时，一个文件路径在不同的操作系统中自动分配
+        类似于__str__()
+        print（）会显示对应的字符串
+
+        Path(str1, str2 ...)
+        返回一个PosixPath对象 其中str -> str1/str2/...
+
+        通常为了保证程序的兼容性，使用Path可以避免兼容的问题
+        
+        1. /运算符
+        /运算符是一个双目运算符， 要求其中的一个必须是Path对象
+        返回结果是一个Path对象，将后边的PosixPath或者str并入该Path中
+    3.Path类的方法和一些其他的方法：
+        Path.cwd()：-----------------------返回一个Path对象 ，内容是当前工作目录
+        os.chdir(): -----------------------改变当前工作目录
+        Path.home(): ----------------------返回一个Path对象， 内容是主目录
+                                           Windows下是 C:/Users/(用户名)
+                                           macOS下是 /User/(用户名)
+                                           Linux下是 /home/（用户名）
+        os.makedirs(): --------------------新建文件夹，会建立起完整的路径
+        Path('文件夹').mkdir(): ------------新建一个文件夹， 只会建立这个文件夹
+        Path('文件夹或文件').is_absolute():-判断路径是否是绝对路径 返回对应布尔值
+
+        os.path模块
+        os.path.abspath(path):--------------返回对应的参数的绝对路径字符串
+        os.path.isabs(path):----------------判断参数是否是一个绝对路径，返回对应的布尔值
+        os.path.relpath(path, start):-------返回一个从start到path的相对路径字符串
+        os.path.join(path1,path2):----------返回一个path1/path2 ，一般用于连接文件目录与文件名
+        其中 .表示当前目录
+             ..表示父目录
+             参数可以是一个字符串，也可以是Path对象
+    4.Path类的属性：
+        以下的求值为简单的字符串：
+            anchor 锚点： 如：'C:/'
+            name 文件名/文件夹名： 如：'spam.txt'(文件名) , 'spam'（文件夹名）
+            stem 主干名： 如：'spam'
+            suffix 拓展名： 如：'.txt'(spam.txt文件，带点) ，''(spam文件夹)
+            drive 驱动： Windows特有， 不包括第一个反斜杠 如：'C:'
+        parent 父文件夹： 返回一个Path对象 如Windowspath('C:/Users/HUAWEI/Desktop/autopy/')
+        parents (不同于parent)求值为一组Path对象，具有整数索引：
+            由一层层父文件夹组成，其中parents[0]表示..
+            parents[1] 表示../..
+            以此类推
+        
+        os.path模块中
+            os.path.dirname(path) 返回一个字符串 为最后一个斜杠之前的内容
+            os.path.basename(path) 返回一个字符串，为最后一个斜杠之后的内容
+            os.path.split(path) 返回一个字符串组成的元组， 由bdirname和basename组成
+            os.sep 表示当前操作系统中的路径分隔符，此方法得到的并不是路径而是单个目录名
+                PS：若是macOS/Linux系统，会产生第一个空字符串
+
+    5.查看文件大小和文件夹内容
+        os.path.getsize(文件) 返回一个整数，表示该文件占据多少字节byte
+            如果是参数是一个文件夹，则结果由操作系统而定
+        os.listdir(目录) 返回一个列表，列出该目录下各个文件和文件夹的名称
+        PS： 欲显示一个文件夹的大小，可以使用os.listdir()和os.path.getsize()，和os.path.join()通过累加获得
+
+    6.通配符
+        path.glob()
+        其中参数是一个字符串
+            * 表示任意任意数量字符
+            ? 表示一个任意字符
+        返回一个生成器对象，代表Path中的所有文件
+        通常可以用list(path.glob(str))表示符合字符串要求的所有文件的列表
+        如：可以通过list(path.glob('*'))表示所有的文件
+                   list(path.glob('*.py'))表示所有的python文件
+                   list(path.glob('project?.py'))表示所有的project系列的Python文件
+
+    7.判断是否存在：
+        path.exists()： 判断是否存在这样的路径，返回对应的bool值
+        path.is_file(): 判断是否存在这样的文件，返回对应的布尔值
+        path.is_dir() : 判断是否存在这样的目录，返回对应的布尔值
+
+        类似的，可以通过os.path模块实现：
+        os.path.exists(path)
+        os.path.is_file(path)
+        os.path.is_dir(path)
+
+    8.读写文件（适用于纯文本文件）：
+        方法1：
+            path.write_text(str)  将字符串写入文件，没有文件新建文件，返回写入字符数
+            path.read_text()      读取文件中的字符，返回字符串
+            PS：适用于与文件的基本交互
+        方法2：
+            1.open()函数，打开文件，返回File对象
+            2.File对象方法 raed()------返回字符串   write()------返回输入字符数
+            3.File对象方法 close()-----关闭文件
+        方法3：
+            1.with语句 with open(文件名) as fp:
+              with语句 开始自动打开文件 结束自动关闭文件
+            2.with语句中File方法
+
+        1. open()函数：
+            第一个参数，字符串或Path对象，表示文件
+            第二个参数，字符串，表示打开方式
+                'r'(默认):只读模式，只能读取，不能改写，不存在返回异常
+                'w'      :只写模式，只能覆写，不能读取，不存在新建文件
+                'a'      :添加模式，只能添写，不能读取，不存在新建文件
+            如果没有异常，返回一个File对象
+        2.File对象方法：
+            read():       返回一个文件中所有字符字符串
+            readline()：  返回一个文件中一行的字符组成的字符串
+            readlines()： 返回一个列表，每一个piece都是一行的内容 PS: 最后一行没有末尾的\n
+            write():      传入一个字符串，将字符串写入文件
+        3.close方法：
+            File.close() 关闭文件
+    9.二进制文件的处理————shelve模块：
+        shelve模块：用于将Python程序中的变量保存在shelf文件中
+
+        1.shelve.open()函数用于打开二进制文件并返回一个shelf值，没有读写区分，可读可写
+        2.shelf值是一个键值对类型的文件，相对于一个大号的字典，可以像字典一样在shelf值中添加Python程序中的变量
+          shelf具有keys(),values(),items()等方法，类似的返回的并不是列表，需要用list强制转换
+        3.shelf值还可以用于读取储存在文件中的数据，返回对应的Python变量
+        4.shelf.close()方法可以关闭shelf文件
+    10.保存变量：
+        可以通过pprint模块中的pformat将对应的变量保存为字符串
+        将字符串写入Python文件，从而将变量保存
+        这样的方式只能保存简单的变量，例如字符串，int，float，列表，字典等等
+        像File，Path等等没有办法保存，可以使用shelve模块保存
+    
+
+
+        
+            
+
+
+        
+    

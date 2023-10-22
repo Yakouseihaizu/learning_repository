@@ -1,0 +1,34 @@
+- START
+- Selenium Manager binary found at: C:\Users\HUAWEI\AppData\Roaming\Python\Python311\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+- Executing process: C:\Users\HUAWEI\AppData\Roaming\Python\Python311\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox --debug --output json
+- Found geckodriver 0.33.0 in PATH: C:\Users\HUAWEI\AppData\Local\Programs\Python\Python311\geckodriver.exe
+- firefox detected at C:\Program Files\Mozilla Firefox\firefox.exe
+- Running command: wmic datafile where name='C:\\Program Files\\Mozilla Firefox\\firefox.exe' get Version /value
+- Output: "\r\r\n\r\r\nVersion=117.0.0.8636\r\r\n\r\r\n\r\r\n\r"
+- Detected browser: firefox 117.0.0.8636
+- Required driver: geckodriver 0.33.0
+- Driver path: C:\Users\HUAWEI\AppData\Local\Programs\Python\Python311\geckodriver.exe
+- Browser path: C:\Program Files\Mozilla Firefox\firefox.exe
+- Using driver at: C:\Users\HUAWEI\AppData\Local\Programs\Python\Python311\geckodriver.exe
+- Started executable: `C:\Users\HUAWEI\AppData\Local\Programs\Python\Python311\geckodriver.exe` in a child process with pid: 5276
+- POST http://localhost:11452/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal", "browserVersion": null, "moz:firefoxOptions": {"binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"}}}}
+- Starting new HTTP connection (1): localhost:11452
+- http://localhost:11452 "POST /session HTTP/1.1" 200 0
+- Remote response: status=200 | data={"value":{"sessionId":"b22f012c-5b25-411d-bbca-b5567a5134d9","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"117.0","moz:accessibilityChecks":false,"moz:buildID":"20230824132758","moz:debuggerAddress":"127.0.0.1:11453","moz:geckodriverVersion":"0.33.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":27240,"moz:profile":"C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileEyT33k","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '745', 'date': 'Tue, 12 Sep 2023 09:36:35 GMT'})
+- Finished Request
+- POST http://localhost:11452/session/b22f012c-5b25-411d-bbca-b5567a5134d9/url {"url": "https://inventwithpython.com"}
+- http://localhost:11452 "POST /session/b22f012c-5b25-411d-bbca-b5567a5134d9/url HTTP/1.1" 200 0
+- Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 12 Sep 2023 09:36:37 GMT'})
+- Finished Request
+- POST http://localhost:11452/session/b22f012c-5b25-411d-bbca-b5567a5134d9/element {"using": "css selector", "value": "#mce-EMAIL"}
+- http://localhost:11452 "POST /session/b22f012c-5b25-411d-bbca-b5567a5134d9/element HTTP/1.1" 200 0
+- Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"d6980476-1473-427b-9a6f-4157b342a1e8"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 12 Sep 2023 09:36:40 GMT'})
+- Finished Request
+- POST http://localhost:11452/session/b22f012c-5b25-411d-bbca-b5567a5134d9/element/d6980476-1473-427b-9a6f-4157b342a1e8/value {"text": "jsasajbskj", "value": ["j", "s", "a", "s", "a", "j", "b", "s", "k", "j"], "id": "d6980476-1473-427b-9a6f-4157b342a1e8"}
+- http://localhost:11452 "POST /session/b22f012c-5b25-411d-bbca-b5567a5134d9/element/d6980476-1473-427b-9a6f-4157b342a1e8/value HTTP/1.1" 200 0
+- Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 12 Sep 2023 09:36:40 GMT'})
+- Finished Request
+- POST http://localhost:11452/session/b22f012c-5b25-411d-bbca-b5567a5134d9/element/d6980476-1473-427b-9a6f-4157b342a1e8/clear {"id": "d6980476-1473-427b-9a6f-4157b342a1e8"}
+- http://localhost:11452 "POST /session/b22f012c-5b25-411d-bbca-b5567a5134d9/element/d6980476-1473-427b-9a6f-4157b342a1e8/clear HTTP/1.1" 200 0
+- Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 12 Sep 2023 09:36:43 GMT'})
+- Finished Request

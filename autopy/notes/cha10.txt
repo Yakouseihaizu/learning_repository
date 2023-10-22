@@ -1,0 +1,50 @@
+组织文件
+1.基本文件的操作：
+    1.shutil模块：
+        shutil.copy(sur,des)-------------复制文件，des是文件夹则在该文件夹下复制源文件，文件名不变
+                                                     是文件则在对应的路径下生成源文件，文件名为最后的文件名
+                                                     返回文件的绝对路径
+        shutil.copytree(sur,des)---------复制目录，des是文件夹，最终生成一个对应路径的文件夹，返回目录的路径
+        shutil.move(sur,des)-------------移动文件或者目录，返回源文件移动后的路径，处理文件时与copy文件名处理相同
+                                         如果找不到des，【会默认des是一个文件】，进而将源文件重命名
+                                         但是如果在路径中间有不存在的目录，就会报错
+                                         eg:
+
+                                         import pathlib.Path
+                                         p = Path.cwd()
+                                         shutil.move(sur,p/'not_exist')-------------重命名
+                                         shutil.move(sur,p/'exists/not_exist')------移动，并重命名
+                                         shutil.move(sur,p/'not_exists/...')--------异常
+            PS：
+                copy会覆盖重名的文件。【路径以文件名而不是目录名】可以避免意外的覆盖
+                move在Python311会异常，但是考虑兼容性还是【路径以文件名而不是目录名】更好
+        shutil.rmtree(path)--------------删除路径处的目录，包括目录内的内容
+    2.os模块：
+        os.unlink(path)-----------------删除路径处的文件
+        os.rmdir(path)------------------删除路径处的目录，目录必须为空
+    3.send2trash模块：
+        send2trash.send2trash(path)----将文件或目录送到回收站，更加安全,但是同时不能释放空间
+
+2.遍历目录树
+    os.walk(path)-----------------------返回一个 _walk对象，可以当作列表使用,使用list转换之后，列表由
+                                        有三个对象元组的元组构成
+                                            1.foldername----------目录，若传入的路径为文件，则_walk对象为空 不为None
+                                            2.subfolders----------包含在该目录下所有目录的列表
+                                            3.filenames-----------包含在该目录下的所有文件的列表
+
+3.Zip模块压缩文件：
+    1.zipfile模块：
+        zipfile.ZipFile()-------------初始化一个ZipFile对象，与File对象接近
+            PS:注意大小写,有r,w,a类型，与File一样
+        ZipFile.namelist()------------返回一个Zip文件下所有文件的地址
+        ZipFile.getinfo(filename)-----返回一个类，具有Zip中该文件的信息
+        ZipFile.extract(filename,foldername)-----将zip文件中的filename文件解压到对应的目录下，filename默认为当前目录
+                                                 若foldername不存在，则新建。返回一个filename解压后的路径的字符串
+        ZipFile.extractall(foldername)-将Zip文件下的所有文件解压到filename下，同上
+    2.新建Zip：
+        zipfile.ZipFile(zipname,'w')---写模式
+        zipfile.ZipFile(zipname,'a')---添加模式
+        ZipFile.write(filename,compress_type=zipfile.ZIP_DEFLATE)
+        
+
+    

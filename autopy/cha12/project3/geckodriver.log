@@ -1,0 +1,142 @@
+1694616524559	geckodriver	INFO	Listening on 127.0.0.1:1300
+1694616527626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileYoQDpL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616527932	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616527986	Marionette	INFO	Listening on port 1312
+WebDriver BiDi listening on ws://127.0.0.1:1301
+Read port: 1312
+1694616528159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1301/devtools/browser/45218879-2df5-4d83-aa04-29fe8afcbb96
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694616549068	Marionette	INFO	Stopped listening on port 1312
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1694616571292	geckodriver	INFO	Listening on 127.0.0.1:1366
+1694616574352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilee1Wbaa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616574601	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616574663	Marionette	INFO	Listening on port 1374
+WebDriver BiDi listening on ws://127.0.0.1:1367
+Read port: 1374
+1694616574825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1367/devtools/browser/90adf597-6fed-43f5-90c8-72458ce70b3d
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694616586745	Marionette	INFO	Stopped listening on port 1374
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1694616595289	geckodriver	INFO	Listening on 127.0.0.1:1423
+1694616598372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileY44P4e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616598611	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616598671	Marionette	INFO	Listening on port 1433
+WebDriver BiDi listening on ws://127.0.0.1:1424
+Read port: 1433
+1694616598831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1424/devtools/browser/7b086311-2bde-46e1-b4d5-66a24648fedd
+1694616609934	Marionette	INFO	Stopped listening on port 1433
+Dynamically enable window occlusion 1
+1694616641057	geckodriver	INFO	Listening on 127.0.0.1:1516
+1694616644136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile2DwYvN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616644371	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616644426	Marionette	INFO	Listening on port 1524
+WebDriver BiDi listening on ws://127.0.0.1:1517
+Read port: 1524
+1694616644588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1517/devtools/browser/3a1052a9-1025-4535-9197-6d6f88dc3245
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694698465011	Marionette	INFO	Stopped listening on port 1524
+Dynamically enable window occlusion 1
+sts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileOGWXhf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616741075	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616741131	Marionette	INFO	Listening on port 1724
+WebDriver BiDi listening on ws://127.0.0.1:1716
+Read port: 1724
+1694616741291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1716/devtools/browser/174626e6-2923-4961-8a96-ed603ff0569a
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694616757691	Marionette	INFO	Stopped listening on port 1724
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1694616768123	geckodriver	INFO	Listening on 127.0.0.1:1780
+1694616771184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileaUbJpp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616771430	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616771490	Marionette	INFO	Listening on port 1791
+WebDriver BiDi listening on ws://127.0.0.1:1781
+Read port: 1791
+1694616771648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1781/devtools/browser/80204ec9-419c-41e8-a90c-1ce231649fd8
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694616786180	Marionette	INFO	Stopped listening on port 1791
+Dynamically enable window occlusion 1
+1694616883204	geckodriver	INFO	Listening on 127.0.0.1:1925
+1694616886270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1926" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileImHyn1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616886507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694616886562	Marionette	INFO	Listening on port 1936
+WebDriver BiDi listening on ws://127.0.0.1:1926
+Read port: 1936
+1694616886724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1926/devtools/browser/2cc7a654-89d6-424f-a24d-28054fc4ba70
+1694616896652	Marionette	INFO	Stopped listening on port 1936
+Dynamically enable window occlusion 1
+1694617032062	geckodriver	INFO	Listening on 127.0.0.1:2222
+1694617035126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofilePSBgGa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694617035372	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694617035430	Marionette	INFO	Listening on port 2231
+WebDriver BiDi listening on ws://127.0.0.1:2223
+Read port: 2231
+1694617035592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2223/devtools/browser/77f3a073-1702-4f38-a5ec-a0dc020b8703
+1694617045183	Marionette	INFO	Stopped listening on port 2231
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1694617078135	geckodriver	INFO	Listening on 127.0.0.1:2298
+1694617081205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileucAlgY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694617081446	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694617081508	Marionette	INFO	Listening on port 2308
+WebDriver BiDi listening on ws://127.0.0.1:2299
+Read port: 2308
+1694617081675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2299/devtools/browser/2493cecc-3bf9-406b-8b71-e9e2000340f7
+1694617092645	Marionette	INFO	Stopped listening on port 2308
+Dynamically enable window occlusion 1

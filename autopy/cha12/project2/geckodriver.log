@@ -1,0 +1,86 @@
+1694600825240	geckodriver	INFO	Listening on 127.0.0.1:19621
+1694600828301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19622" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofile7qQzGv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694600828983	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694600829104	Marionette	INFO	Listening on port 19634
+WebDriver BiDi listening on ws://127.0.0.1:19622
+Read port: 19634
+1694600829423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:19622/devtools/browser/f946086e-5de6-49f6-8480-922ea6bd19a9
+1694600838035	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+console.warn: LoginHelper(Main): "Couldn't parse specified uri [System Principal] with error NS_ERROR_MALFORMED_URI"
+JavaScript warning: https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js, line 2: Script terminated by timeout at:
+kt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:3519
+rt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:12978
+st@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:4248
+hi@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:1222
+pt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:1132
+b@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:788
+o@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:7146
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694600956112	Marionette	INFO	Stopped listening on port 19634
+Dynamically enable window occlusion 1
+1694600960315	geckodriver	INFO	Listening on 127.0.0.1:19964
+1694600963372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileYZ8qN1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694600963904	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694600964010	Marionette	INFO	Listening on port 19974
+WebDriver BiDi listening on ws://127.0.0.1:19965
+Read port: 19974
+1694600964113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:19965/devtools/browser/219b692c-7a0e-4504-b679-a004d08031c0
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1694600971926	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript warning: https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js, line 2: Script terminated by timeout at:
+kt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:3519
+rt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:12978
+st@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:4248
+hi@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:1222
+pt@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:1132
+b@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:788
+o@https://www.bing.com/rp/R14ozkkie30zM6FSjzwWFp8Ffzk.br.js:2:7146
+
+1694600992723	Marionette	INFO	Stopped listening on port 19974
+Dynamically enable window occlusion 1
+1694601003311	geckodriver	INFO	Listening on 127.0.0.1:20180
+1694601006365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HUAWEI\\AppData\\Local\\Temp\\rust_mozprofileTNHbiS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694601006960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694601007071	Marionette	INFO	Listening on port 20190
+WebDriver BiDi listening on ws://127.0.0.1:20181
+Read port: 20190
+1694601007367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:20181/devtools/browser/760968de-81b4-43dc-9325-2aa4213923c4
+1694601010787	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1694601013712	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js, line 2: Script terminated by timeout at:
+w@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:10155
+ft@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:11059
+st@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:4247
+hi@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:1221
+pt@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:1131
+b@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:787
+o@https://cn.bing.com/rp/b9bRpGsYe0m9jX5MG4-RkgjdSr0.br.js:2:7145
+
+1694698463074	Marionette	INFO	Stopped listening on port 20190
+Dynamically enable window occlusion 1

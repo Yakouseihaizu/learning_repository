@@ -1,0 +1,80 @@
+1.抛出异常Exception：
+    1.关键词raise: 程序到此产生一个（异常）
+    2.类Exception: 一个类，文件异常时返回，可定义参数
+                 如： Exception(str)： 返回的类的__str__()为str的内容
+    通常可以和 try——exception 语句使用，例如在函数中判断参数是否合理
+
+2.回溯字符串traceback：
+    Python遇到错误，会返回一些错误有关的信息，即‘回溯’。
+        PS：不光是traceback之后的内容，是异常的话还有最后的exception
+
+    可以通过tarceback.format_exc()获取回溯的字符串。
+    在项目的日志的编写中会十分有用
+
+3.断言assert：
+    1.关键字assert:
+        assert 条件
+        若条件为真，则继续下一行
+        否则，程序崩溃，返回AssertionError
+
+        assert 条件 , str
+        若条件为真，则继续下一行
+        否则，程序崩溃，返回AssertionError: str
+    2.用法：
+        可以用在函数之中
+            这样做的好处是可以在错误发生的地方中断程序，并给出适当的提示
+                         可以提高debug的效率
+
+4.日志Log:
+    1.logging模块：
+        主要用于创建自定义消息记录
+        可以记录某一段代码是否被执行，并展示相关的内容
+    2.日志函数：
+        logging.basicConfig(*, filename,format,level)
+        注意：前面有一个列表，意味着所有的参数都必须直接用=表示，因此参数的顺序反而不重要
+             filename 表示日志信息写入的文件，默认‘a’模式，没有指定则将打印到终端上
+             format   表示日志信息的格式
+             level    表示日志信息的等级
+        日志信息的格式：一个特定的格式化字符，格式化的部分为 %(***)s
+                       %(acsdate)s         一种时间格式 YYYY-mm-DD HH-MM-SS
+                       %(levelname)s       表示日志的最低等级，从低到高有DEBUG，INFO等等
+                       %(message)s         表示自己添加的消息
+    3.日志等级：
+        本质上是人为设定的等级
+            DEBUG           最低，调试的时候使用
+            INFO            正常运行
+            WARNING         可能的问题
+            ERROR           错误，代码运行失败
+            CRITICAL        致命错误
+        logging模块也有对应的函数,可以生成对应格式的字符串：
+            debug           生成debug等级的日志信息
+            info            生成info等级的日志信息
+            warning         生成warning等级的日志信息
+            error           生成error等级的日志信息
+            critical        生成critical等级的日志信息
+        注意：使用上面的函数的时候会在函数中调用logging.basicConfig()函数
+              如果在文件之前的logging.basicConfig()中的level比函数的高，则该函数没有作用
+              eg：...
+                  logging.basicConfig(level=logging.ERROR,format=...)
+                  logging.debug('Hello') <-----------------------没用
+                  logging.error('error here') <------------------有用
+                  logging.critical('critical here') <------------有用
+                                                                 格式中的levelname为critical
+              即>=该等级的都可用
+    4.日志禁用：
+        logging.disable(level)
+        只会禁用<=自己等级的
+        因此，使用日志的好处包括方便调试和调试之后取消调试部分
+    
+5.调试器：
+    1.continue:程序正常进行，直到断点
+    2.step in：进入执行下一行代码，并停止，若下一行是函数，则转跳到函数第一行
+    3.step over：进入下一行代码，并停止，若下一行是函数，则跳过
+    4.step out: 跳出函数，直接跳出函数
+    5.stop：立即终止程序
+    
+
+        
+
+
+

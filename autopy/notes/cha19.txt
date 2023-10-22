@@ -1,0 +1,41 @@
+1.pillow模块：
+    1.import PIL ------------------------------------- PIL是Python Image Library，pillow是在此基础上建立的模块
+                                                       为了保证兼容性，于是采用PIL
+    2.ImageColor模块 --------------------------------- 有关颜色的模块
+        ImageColor.getcolor(color,style) -------------- 返回一个对应的颜色对象，具体的形式由style来确定，如RGBA等等
+    4.Image模块：------------------------------------- 有关图像的部分
+        1.Image.new(style,size,color) ---------------- 新建一个Image文件,大小是size的元组，style和color同上，其中color表示背景颜色
+        2.Image.open(filename) ----------------------- 生成一个Image对象，打开一个图片，可以是png，pjg等等
+        3.ImageObj.size ------------------------------ 一个由int组成的元组的参数，分别表示图片的宽度和高度
+        4.ImageObj.filename -------------------------- 返回一个字符串，表示该Image的文件名
+        5.ImageObj.format_description ---------------- 返回一个字符串，表示该Image的文件类型
+        6.ImageObj.save(filename) -------------------- 将Image保存为具体的文件
+        7.ImageObj.crop(aera) ------------------------ 返回area范围内的区域的ImageObj，area是一个四个整数组成的元组
+                                                        1.表示左边的x1，2.表示上面的y1
+                                                        3.表示右边的x2，4.表示下边的y2
+        8.ImageObj.copy() ---------------------------- 返回一个ImageObj，将文件复制
+        9.ImageObj.paste(ImageSrcObj,position,marks) - 将ImageScrObj的图像粘贴到ImageObj上，Position表示一个元组，表示左上角的坐标
+                                                       如果没有第三个参数，则不会复制透明的像素，否则则全部复制包括透明的像素
+        10.ImageObj.resize(size) --------------------- 返回一个ImageObj，将Image放缩到具体的大小，size是一个元组，表示具体的大小
+                                                        如果不成比例，图像会自动铺满
+        11.ImageObj.rotate(degree，expand) ----------- 返回一个Image对象，将原来的图像逆时针翻转degree度,expand是一个bool值，
+                                                       表示是否将原文件放大，将原来的文件图像全部接下来
+        12.ImageObj.transpose(method) ---------------- 将文件进行水平转动，竖直转动分别是Image.FLIP_LEFT_RIGHT,Image.FLIP_TOP_BOTTOM
+        13.ImageObj.putpixel(position,ImageColor) ---- 将position位置的像素的颜色设置为ImageColor的颜色
+    5。ImageDraw绘图：
+        1.ImageDraw.Draw(Image) ---------------------- 生成一个ImageDraw对象
+        2.DrawObj.point(xy,fill) --------------------- 在对应的点处画一个点,xy是一个tuple，表示坐标，fill是一个颜色，表示点的颜色
+        3.DrawObj.line(xy,fill,width) ---------------- 在对应的点之间画线，xy是一个list of tuple，表示一连串的点，fill表示线的颜色，width表示线的粗细
+        4.DrawObj.rectangle(xy,fill,outline) --------- 在对应的区域画一个矩形，xy是一个由两个tuple组成的列表，表示左上角和右下角的坐标
+                                                       fill表示内部填充的颜色，outline表示边框的颜色
+        5.DrawObj.ellipse(xy,fill,outline) ----------- 在对应的区域内画一个椭圆，xy是一个正好包括这个椭圆的矩形的表示方法（同上）
+                                                        fill和outline同上
+        6.DrawObj.polygon(xy,fill,outline) ----------- 沿着对应的边绘制一个多边形，xy是tuple的列表，最后一个坐标自动连接到最后一个坐标
+                                                        fill和outline同上
+        7.DrawObj.text(position,text,color,font) ----- 在对应位置绘制文本，position表示文本的左上角的坐标，text表示文本的内容，color表示文本的颜色，
+                                                       font一般是一个ImageFont对象，表示对应的字体
+                                                            PS：
+                                                                font = ImageFont.truetype(path,size)
+                                                                表示生成一个ImageFont对象，大小是size pt，path是样式所在的地方
+
+

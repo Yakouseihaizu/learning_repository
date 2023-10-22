@@ -1,0 +1,56 @@
+1.PyPDF2模块：
+    1.读取
+        1.open函数 -------------------------------------------- 打开文件
+        2.PyPdf2.PdfReader(file) ------------------------------ 获取PdfReader对象
+        3.PdfReader.pages ------------------------------------- 由Page对象组成的list
+        4.PdfReader.is_encrypted() ---------------------------- 返回是否加密的bool值
+        6.PdfReader.encrypt(user_password,owner_password) ----- 设置加密，读的加密和编辑的加密，只有一个两者都一样 
+        7.PdfReader.decrypt(str) ------------------------------ 解密，密码不对返回0
+        8.Page.extract_text() ---------------------------------- 返回Page中的字符串，不一定都能够识别
+    2.修改
+        1.PyPDF2不能直接改写，需要新建pdf文件
+        2.PyPDF2.PdfWriter() ---------------------------------- 生成一个PdfWriter对象
+        3.PdfWriter.add_page(Page) ---------------------------- 将Page对象加入PdfWriter中
+        4.Page.rotate(degree) --------------------------------- 顺时针转动90°的整数倍
+        5.PdfWriter.write(file) ------------------------------- 将PdfWriter中的内容写入文件
+        6.Page1.merge_page(Page2) ----------------------------- 将page叠加在一起，Page1在下面
+
+2.python-docx模块(import docx)：
+    1.word文档的结构
+        Document ------------ Paragraph ---------------- run
+          文件                  段落                      格式
+        A plain paragraph with someblod and some italic ------- blod加粗，italic斜体
+        ---------------------------
+                    run            ----
+                                    run ---------
+                                            run    ------
+                                                     run
+    2.读取word文件
+        docx.Documents(str) ---------------------------------- 打开文件，返回一个Document对象
+        Documents.paragraphs --------------------------------- 一个列表，包含了所有的paragraph对象
+        Paragraph.text --------------------------------------- 返回这个段落中的字符串
+        Paragraph.runs --------------------------------------- 一个列表，包含了所有的Run对象
+        Run.text --------------------------------------------- 返回这个run包含的字符串
+    3.设置对象的样式：
+        Shift+Ctrl+Alt+s ------------------------------------- 在word文件中打开有关样式的列表
+        Paragraph.style -------------------------------------- Paragraph的属性，决定样式，需要之前在word中设置
+        Run.style -------------------------------------------- Run的属性，决定样式，并且需要Paragraph中的对应样式的字符串+‘Char’
+        Run.underline ---------------------------------------- Bool值，决定是否有下划线
+        Run.blod --------------------------------------------- Bool值，决定是否加粗
+        doc.save(str) ---------------------------------------- 保存
+    4.写入文档：
+        Document.add_paragraph(str,style) -------------------- 写入段落，作为一个Run对象,并设置样式
+        Paragraph.add_run(str,style) ------------------------- 在段落后写入Run对象，并设置样式
+        Document.add_heading(str,int) ------------------------ 添加一个标题，int决定大小编号
+        Run.add_break() -------------------------------------- 在Run之后加入Break，默认是换行，但是不分段落
+                                                               docx.enum.text.WD_BREAK.PAGE 分页
+        doc.add_picture(filename,width,height) --------------- 添加图片，width和height可以设置cm或者英寸
+                                                               docx.shared.Inches(int)和docx.shared.Cm(int)
+    
+
+
+
+
+
+
+

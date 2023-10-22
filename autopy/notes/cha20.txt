@@ -1,0 +1,89 @@
+pyautogui模块
+1.控制鼠标指针：
+    PS:以下提到的tuple除了特别标注之外都是命名的tuple
+    1.pyautogui.size() ---------------------------------- 返回一个元组(width,height)表示桌面的大小，按像素算
+    2.pyautogui.moveTo(x,y,duration) -------------------- 将鼠标光标移动到(x,y)处，耗时duration秒
+    3.pyautogui.move(dx,dy,duration) -------------------- 将鼠标光标移动dx,dy，耗时duration秒
+    4.pyautogui.position() ------------------------------ 返回一个元组(x,y)，表示当前鼠标的位置
+    5.pyautogui.click(x,y，button=left) ----------------- 用鼠标点击x,y位置，默认是左键
+        PS：除了click之外还有doubleclick() , rightclick()，middleclick()函数
+            另外还有mouseDown(x,y,button)和mouseUp(x,y,button)表示按下和放开
+    6.pyautogui.scroll(int) ----------------------------- 滚动鼠标，具体的int需要调试
+    7.pyautogui.dragTo(x,y,duration) -------------------- 与上面moveTo相似
+    8.pyautogui.drag(dx,dy,duration) -------------------- 与上面move相似
+2.处理屏幕并规划鼠标运动：
+    1.pyautogui.mouseInfo() ----------------------------- 启动mouseInfo程序，会读取对应鼠标所指处像素的位置，颜色等信息
+                                                          并且可以将这些信息保存到一个txt中，便于之后调用
+    2.pyautogui.screenshot() ---------------------------- 生成一个Image对象，其大小和当前的屏幕一样
+    3.pyautogui.pixel(x,y) ------------------------------ 返回对应位置的颜色，RGB tuple
+    4.pyautogui.pixelMatchColor(x,y,RGB) ---------------- 返回一个bool值，表示该处的像素是否与RGB颜色匹配
+    5.pyautogui.locateOnScreen(file) -------------------- 将文件对应的图像与屏幕相对照，并返回一个Box
+                                                          BoX是一个四个参数的元组(left,top,width,height)
+                                                          PS：注意由于是按照像素进行的查找，因此缩放可能会导致匹配失败
+    6.pyautogui.locateAllOnScreen(file) ----------------- 返回一个Box对象的列表，表示当前屏幕中所有匹配的Box
+        PS: click()/moveTo()/DragTo()等还有特殊的用法
+            click(file) ------------------------------ 表示先查找file匹配的Box，然后点击其中间
+            click((x,y,width,height)) ---------------- 表示点击整个矩形的中间
+    
+3.获取窗口信息：
+    1.Window对象有以下的属性和方法：
+        1.尺寸部分    
+            1.left,right,top,bottom ---------------------- 返回一个整数，表示窗口边的x或y坐标
+            2.topleft,topright,bottomleft,bottomright ---- 返回一个tuple，表示窗口的四个角的坐标
+            3.midleft,midright,midtop,midbottom ---------- 返回一个tuple，表示窗口左中，右中，上中，下中的点的坐标
+            4.width,height ------------------------------- 返回一个整数，表示窗口的宽度和高度
+            5.size --------------------------------------- 返回一个tuple，表示窗口的宽度和高度
+            6.area --------------------------------------- 返回一个整数，表示窗口的面积
+            7.center ------------------------------------- 返回一个tuple，表示窗口中心的坐标
+            8.centerx,centery ---------------------------- 返回一个整数，表示当前窗口中心的横坐标和纵坐标
+            9.box ---------------------------------------- 返回一个四元素的tuple，(x,y,width,height)
+            10.title ------------------------------------- 返回窗口的标题
+        2.操作部分：
+            1.isMaximized / isMinimized ------------------ 返回一个bool值，表示窗口是否最大（小）化
+            2.isActive ----------------------------------- 返回一个bool值，表示窗口是否为活动窗口
+            3.maximize() / minimize() -------------------- 最大（小）化窗口
+            4.restore() ---------------------------------- 最大化，最小化以后将窗口恢复为原来的大小
+            5.activate() --------------------------------- 将该窗口激活
+            6.close() ------------------------------------ 关闭该窗口
+                PS：调整窗口的大小（非最大化，最小化）
+                    直接给尺寸部分赋值即可
+        
+    2.pyautogui.getActiveWindow() -------------------- 返回一个WIndow对象，表示目前正在活动的Window
+    3.pyautogui.getAllWindows() ---------------------- 返回一个列表，表示当前所有的Window对象
+    4.pyautogui.getWindowsAt(x,y) -------------------- 返回一个列表，表示当前所有包含该点的Windows对象
+    5.pyautogui.getWindowsWithTitle(str) ------------- 返回一个列表，表示当前所有标题中包含str的Window对象
+    6.pyautogui.getAllTitles() ----------------------- 返回一个列表，表示当前所有Window对象的标题
+
+4.控制键盘：
+    1.pyautogui.write() ------------------------------ 利用键盘输入：
+                                                            1.当参数是一个字符串时，输入该字符串
+                                                            2.当参数时一个列表时，依次输入列表中的信息
+                                                                这个列表一般包含了单个字符的字符串和键盘上的特殊按键
+    2.pyautogui.KEYBOARD_KEYS ------------------------- 可以pyautogui可接受的所有字符串
+        取其中常见的：
+        
+        一、 'a','b','c'...
+             '1','2','3'...
+             '!','@','#'... ----------------------- 单个字符的键（shift已经算了）
+        二、 'esc','backpace','delete',
+             'pageup','pagedown',
+             'home','end','insert',
+             'printscreen'------------------------- 对应的按键
+             'volumemute','volumedown','volumneup' - 静音、调大音量，调小音量
+             'enter' / '\n' ------------------------ 回车键
+             'tab' / '\t' -------------------------- Tab键
+             'shift' / 'shiftleft' / 'shiftright' -- shift键，默认左边
+             'alt' / 'altleft' / 'altright' -------- alt键，默认左边
+             'ctrl' / 'ctrlleft' / 'ctrlright' ----- ctrl键，默认左边
+             'win' / 'winleft' / 'winright' -------- win键，默认左边
+        三、  'up','down','left','right' ------------ 四个箭头
+              'f1','f2','f3'... --------------------- F1，F2，F3...
+
+    3.pyautogui.hotkey(key1,key2...) ------------------- 快捷键
+    4.pyautogui.KeyDown(key) --------------------------- 按键
+    5.pyautogui.KeyUp(key) ----------------------------- 放键
+    6.pyautogui.press(key) ----------------------------- 按一下键
+
+5.时间管理：
+    pyautogui.slepp(float) ------------------------------------- 同time模块
+    pyautogui.countdown(float) --------------------------------- sleep增加倒计时功能

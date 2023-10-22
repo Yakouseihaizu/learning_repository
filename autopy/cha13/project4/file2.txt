@@ -1,0 +1,70 @@
+1.openpyxl模块：
+    该模块中excel文件的结构：  workbook -> worksheet -> cell
+    1.openpyxl.load_workbook(filename) ---------------- 类似open()，返回一个WorkBook对象
+            PS： 必须在当前目录下才能打开
+    2.Workbook的方法和属性：
+        1.Workbook.sheetnames ----------------------------- 返回一个各个表标题的字符串的列表
+        2.Workbook[sheetname] ----------------------------- 返回一个对应标题的Worksheet对象
+        3.Workbook.active --------------------------------- 返回当前活动表的Worksheet对象
+    3.Worksheet的方法和属性：
+        1.Worksheet.title --------------------------------- 返回对应表的标题字符串
+        2.Worksheet[cellname] ----------------------------- 返回表中对应编号的Cell对象
+        3.Worksheet.cell(row,column) ---------------------- 返回表中对应位置的Cell对象
+        4.Worksheet.max_row() ----------------------------- 返回一个整数，表示最大的行数，从1开始
+        5.Worksheet.max_column() -------------------------- 返回一个整数，表示最大的列数，从1开始
+        6.Worksheet[pos1:pos2] ---------------------------- 返回一个Generator对象，包含这个矩形中所有的Cell对象
+        7.Worksheet.columns ------------------------------- 返回一个Generator对象，是按列进行第一层划分的
+        8.Worksheet.rows ---------------------------------- 返回一个Generator对象，是按行进行第一层划分的
+    4.Cell的方法和属性：
+        1.Cell.value -------------------------------------- 返回对应Cell中的值
+        2.Cell.row, Cell.column --------------------------- 返回一个整数，表示Cell所在的行和列
+        3.Cell.coordinate --------------------------------- 返回对应的位置的编号
+    5.转化字母和数字编号：
+        openpyxl.utils模块中的column_index_from_string(),get_column_letter()函数
+        column_index_from_string(int) -------------------- 从字母到数字
+        get_column_letter(int) --------------------------- 从数字到字母
+    6.读取数据：
+        加载电子表格数据 - 准备一些变量和数据结构 - 循环变量
+        例如：for循环循环每一行
+              使用字典将项目和数据关链
+              字典可以用setdefault()方法添加或者更改变量
+    7.写入数据：
+        创建电子表格 - 创建和删除sheet - 写入cell中的数据 - 保存表格
+        1.openpyxl.Workbook() --------------------------- 生成一个Workbook的类
+        2.Workbook.save(filename) ----------------------- 保存表格为filename,不允许之前有存在的表格文件
+        3.Worksheet.create_sheet() ---------------------- 创建一个表
+        4.del Worksheet[coordinate] --------------------- 删除对应位置上的cell内容
+        5.Worksheet[coordinate] = content --------------- 在coordinate中写入内容，PS：左边依然是一个cell对象
+        6.Worksheet[coordinate].value ------------------- 返回对应的内容
+    8.更新表格：
+        打开电子表格 - 利用更新数据建立数据结构，如字典 - 遍历检查，更新 - 保存表格
+    9.字体设置：
+        1.openpyxl.style.Font(name,blod,italic,size) ---- 有关字体的类
+            PS: name ------------------ 字体的名称，默认Calibri
+                blod ------------------ 是否加粗,默认False
+                italic ---------------- 是否斜体，默认False
+                size ------------------ 字体大小，默认11pt
+        2.cell.font ------------------------------------- cell中设置字体的属性
+    10.输入公式：
+        相当于字符串
+        PS：对于复杂的运算，使用Python更方便
+    11.调整行和列：
+        1.调整行高和列宽：
+            Worksheet.row_dimensions[index].height = value 
+                ---------------------- 将以index为编号的行的高度调整为value，默认为12.75
+            Worksheet.column_dimensions[index].width = value
+                --------------------- 将以index为编号的列的宽度调整为value，默认为11pt的8.43字符
+        2.合并拆分单元格：
+            Worksheet.merge_cells('LU-RD') ------------- 将表格范围内所有的cells合并成一个单元格，内容为LU中的内容
+            Worksheet.unmerge_cells('LU-RD') ----------- 将对应范围中的单元格分开，若传入的范围不是一个完整的单元格，报错
+        3.冻结窗格：
+            Worksheet.freeze_panes(coordinate) -------- 将coodinate以左和以上的部分进行冻结
+    12.图表：
+        openpyxl.chart模块：
+            1.openpyxl.chart.BarChart() ------------------------------------ 创建一个Barchart对象
+              openpyxl.chart.LineChart() ----------------------------------- 创建一个LineChart对象
+              openpyxl.chart.ScatterChart() -------------------------------- 创建一个ScatterChart对象
+            2.openpyxl.chart.Reference(Ws,min_col,max_col,min_row,max_row) - 生成一个Reference的类,表示数据的集合或者种类的集合
+            3.Chart.add_data(Reference,titles_from_data) ------------------- 加入数据
+            4.Chart.set_catergories(Reference) ----------------------------- 加入种类
+            5.Worksheet.add_chart(Chart,position) -------------------------- 加入图表

@@ -1,0 +1,44 @@
+1.time模块：
+    1.time.time() -------------------------------------- 返回一个浮点数，表示当前距离UNIX纪元的秒差
+    2.time.sleep(int) ---------------------------------- 使程序暂停int秒的时间
+    3.round(float,digits) ------------------------------ 返回对应小数位数的数，默认是0，即个位，也可以是负数
+
+2.datetime模块：
+    1.datetime.datetime(year,month,day,hour,      
+                        minute,second,microsecond) ----- 生成一个datetime对象
+
+    2.datetime.datetime.now() -------------------------- 生成当前时间的datetime对象
+    3.datetimeObj.year/~.month/~.day/~.hour/~.mimute
+                      /~.second/~.microsecond ---------- 返回该datetime对象的对应属性
+    4.datetime.datetime.fromstrstamp(int) -------------- 返回从UNIX纪元开始经过int秒之后的datetime
+    5.datetime ----------------------------------------- datetime对象之间可以用>=<比较大小，大的更迟
+    6.datetime.timedelta(days,,hours,mimutes,seconds,
+                         microseconds) ----------------- 生成一个timedelta对象，表示一段时间。
+    7.timedelta ---------------------------------------- timedelta对象、timedelta和恶datetime之间可以+-,数字和timedelta之间可以*/
+    8.timedeltaObj.total_seconds() --------------------- 返回datetime对应的总秒数
+    9.datetimeObj.strftime(format) --------------------- 返回datetime对象的对应格式的字符串
+            PS:format的格式要求：
+                1.%y,%Y --------------- 两位的年份(1970-2069) 、四位的时间
+                2.%m,%B,%b ------------ 月份的数字形式、完整形式、简写形式
+                3.%d,%j --------------- 月份中的天(01-31)、年中的天(001-366)
+                4.%W,%A,%a ------------ 一周中的天的数字形式(0->周日,6->周六)、完整模式、缩写模式
+                5.%H,%I --------------- 24小时中的小时，12小时中的小时
+                6.%M ------------------ 分钟
+                7.%S ------------------ 秒钟
+                8.%p ------------------ AM和PM
+                9.%% ------------------ %
+    10.datetime.datetime.strptime(stre,format) ---------- 返回一个datetime，按照format的形式将str转化成对应的datetime
+    11.datetimeObj.replace(year, month, day, hour, 
+                    minute, second, microsecond) -------- 生成一个新的datetime对象，其值是将datetimeObj替换之后的值
+3.多线程：
+    1.threading模块：
+        1.threading.Thread(target,args,kwargs) --------- 生成一个Thread对象，
+                                                          target往往是一个函数，
+                                                          args往往是一个列表，表示自己的参数
+                                                          kwargs往往是一个字典，表示关键字参数得到变量
+        2.ThreadObj.start() ---------------------------- 启动该线程
+    2.subprocess模块：
+        1.subprocess.Popen(str) ------------------------ 打开对应的可执行文件
+        2.subprocess.Popen([exe,file]) ----------------- 利用exe打开对应的文件
+        3.subprocess.Popen(['start',file],shell=Ture) -- 用默认的应用打开对应的文件
+

@@ -1,0 +1,1 @@
+@pyw.exe C:\Windows\HUAWEI\Desktop\autopy\cha9\mcd\mcb.pyw %*

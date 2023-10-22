@@ -8,8 +8,8 @@
                         minute,second,microsecond) ----- 生成一个datetime对象
 
     2.datetime.datetime.now() -------------------------- 生成当前时间的datetime对象
-    3.datetimeObj.year/~.month/~.day/~.hour/~.mimute
-                      /~.second/~.microsecond ---------- 返回该datetime对象的对应属性
+    3.datetimeObj.year/.month/.day/.hour/.mimute
+                      /.second/.microsecond ---------- 返回该datetime对象的对应属性
     4.datetime.datetime.fromstrstamp(int) -------------- 返回从UNIX纪元开始经过int秒之后的datetime
     5.datetime ----------------------------------------- datetime对象之间可以用>=<比较大小，大的更迟
     6.datetime.timedelta(days,,hours,mimutes,seconds,
